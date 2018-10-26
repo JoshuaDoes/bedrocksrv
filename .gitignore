@@ -1,0 +1,7 @@
+# Output executables (not accounting for Linux builds because fuck file extensions)
+*.exe
+*.app
+*.old
+
+# OS leftovers
+desktop.ini
