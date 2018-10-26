@@ -5,7 +5,7 @@
 ----
 
 ## What's working?
-- Nothing!
+- Configuration management (loading `config.json` and saving the default configuration to `config.json` if it does not yet exist)
 
 ## What's new compared to the official Minecraft: Bedrock Edition server?
 - Nothing!
@@ -17,6 +17,7 @@
 - Getting the server working in a clean and stable manner
 - Adding support for plugins built to shared object libraries (`*.so` files)
 	- Support for these plugins at this point in time will only work on Linux, and thus plugin support will be disabled on Windows and MacOS hosts
+- Adding an in-built DNS server to redirect promoted Bedrock servers to the current one (for use cases like the Nintendo Switch and the Xbox One)
 
 ----
 
